@@ -117,10 +117,10 @@ program
 
             const o = new outputFactory(properties);
             const transformer = [
-              createExpressionTransformer(
-                entry => uc.fileNameConformsTo(entry.name, "public.text"),
-                properties
-              )
+              // createExpressionTransformer(
+              //   entry => uc.fileNameConformsTo(entry.name, "public.text"),
+              //   properties
+              // )
             ];
 
             if (options.verbose) {
